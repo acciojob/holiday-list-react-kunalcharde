@@ -38,7 +38,7 @@ const App = () => {
         <ol>
         {cityList.map((city,idx)=>{
           if(city.country==="India"){
-            return <li key={city.country+idx}>{city.name}</li>
+            return <li key={city.name+idx}>{city.name}</li>
           }
         })}
         </ol>
